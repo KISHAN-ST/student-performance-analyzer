@@ -1,17 +1,25 @@
-Student Performance Analyzer
+<p align="center">
+  <img src="https://img.shields.io/badge/Student%20Performance%20Analyzer-%20Data%20Science-blueviolet?style=for-the-badge" alt="project badge"/>
+</p>
 
-Author: Kishan S T (B.Tech CSE – Data Science)  
-Goal: Explore how various factors affect student exam performance using Python, Pandas, and Seaborn.
+# 🎓 Student Performance Analyzer
+Analyze and visualize student exam performance using Python 🐍, Pandas, and Seaborn to uncover patterns and insights.
 
-Project Structure
-- `data/` — datasets  
-- `notebooks/` — Jupyter notebooks  
-- `src/` — helper scripts  
-- `README.md` — project overview  
+**Author:** Kishan S T  
+🎓 B.Tech CSE (Data Science) | Christ (Deemed to be University)  
+📧 [kishan45@gmail.com](mailto:kishan45@gmail.com)  
+🌐 [GitHub Profile](https://github.com/KISHAN-ST)
 
-Setup
-1. Open Anaconda Navigator → environment `spa` → Launch Jupyter Notebook  
-2. Run `notebooks/Student_Performance_Analyzer.ipynb`
+## 📁 Project Structure
+student-performance-analyzer/
+├── 📂 data/ → Datasets  
+├── 📓 notebooks/ → Jupyter notebooks  
+├── ⚙️ src/ → Helper scripts  
+└── 📘 README.md → Project overview
 
-Dataset
-[Students Performance in Exams – Kaggle](https://www.kaggle.com/datasets/spscientist/students-performance-in-exams)
+## 🚀 How to Run
+1. Open **Anaconda Navigator** 🐍
+2. Activate your environment (`spa`)
+3. Launch **Jupyter Notebook**
+4. Open and run: `notebooks/Student_Performance_Analyzer.ipynb`
+
