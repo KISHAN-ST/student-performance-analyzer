@@ -7,7 +7,7 @@ Analyze and visualize student exam performance using Python 🐍, Pandas, and Se
 
 **Author:** Kishan S T  
 🎓 B.Tech CSE (Data Science) | Christ (Deemed to be University)  
-📧 [kishan45@gmail.com](mailto:kishan45@gmail.com)  
+📧 [stkishan45@gmail.com](mailto:stkishan45@gmail.com)  
 🌐 [GitHub Profile](https://github.com/KISHAN-ST)
 
 ## 📁 Project Structure
