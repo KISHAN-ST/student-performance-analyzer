@@ -22,4 +22,18 @@ student-performance-analyzer/
 2. Activate your environment (`spa`)
 3. Launch **Jupyter Notebook**
 4. Open and run: `notebooks/Student_Performance_Analyzer.ipynb`
+## 🧩 Project Progress
 
+### **Phase 1: Setup**
+✅ Created GitHub repository  
+✅ Added project structure and README.md  
+✅ Set up Python environment (`spa`) in Anaconda  
+✅ Created Jupyter notebook for analysis  
+
+---
+
+### **Phase 2: Data Loading & Cleaning**
+✅ Loaded dataset from **Kaggle**  
+✅ Explored dataset using `.info()` and `.describe()`  
+✅ Checked for missing values using `.isnull().sum()`   
+✅ Verified clean dataset ready for analysis  
