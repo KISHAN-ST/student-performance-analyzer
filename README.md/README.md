@@ -37,3 +37,20 @@ student-performance-analyzer/
 ✅ Explored dataset using `.info()` and `.describe()`  
 ✅ Checked for missing values using `.isnull().sum()`   
 ✅ Verified clean dataset ready for analysis  
+
+## 📊 Phase 3: Data Comparison & Visualization
+
+In this phase, I explored the relationships between different factors influencing student performance. Using **Seaborn** and **Matplotlib**, I created visual comparisons to understand trends better.
+
+### 🔍 Key Tasks:
+- Compared **test preparation courses** with math, reading, and writing scores  
+- Added **hue-based color differentiation** to make the visual insights clearer  
+- Visualized results using **bar plots** with `sns.barplot()`  
+
+### 📈 Sample Code:
+```python
+plt.figure(figsize=(8,5))
+sns.barplot(x='test preparation course', y='math score', data=data, hue='gender', palette='cool')
+plt.title('Math Score by Test Preparation Course and Gender')
+plt.show()
+
