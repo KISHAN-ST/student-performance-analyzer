@@ -1,0 +1,88 @@
+🧾 Day 1 Notes – Project Setup & Data Exploration
+🗓️ Date: (Today’s Date)
+🎯 Goal:
+
+To set up the project environment, load the dataset, and perform basic exploration and visualization to understand the data.
+
+🧱 1. Project Structure
+
+I learned how to organize my project like a professional data scientist:
+
+project_root/
+│
+├── data/                  → for datasets (CSV files)
+├── notebooks/             → for Jupyter notebooks
+├── src/                   → for Python scripts (main code)
+└── README.md              → for project summary
+
+
+Why it matters:
+✅ Keeps the project clean and easy to navigate.
+✅ Makes it look professional on GitHub.
+✅ Allows me to separate raw data, code, and experiments clearly.
+
+🧠 2. Loading the Dataset
+
+I learned to import and read data using Pandas:
+
+import pandas as pd
+data = pd.read_csv('../data/StudentsPerformance.csv')
+data.head()
+
+
+Concepts learned:
+
+pd.read_csv() → Reads CSV files.
+
+data → A DataFrame object that stores data in rows and columns.
+
+data.head() → Displays the first 5 rows to verify data.
+
+🔍 3. Exploring the Dataset
+
+I practiced checking basic info:
+
+data.shape          # total rows & columns
+data.info()         # datatypes and null values
+data.describe()     # summary statistics
+data.isnull().sum() # check for missing values
+
+
+Concepts learned:
+
+How to understand data size and structure.
+
+Identifying missing values.
+
+Getting statistical summaries (mean, min, max, std).
+
+🎨 4. Visualizing Data with Seaborn
+
+Created my first bar chart using Seaborn:
+
+import seaborn as sns
+import matplotlib.pyplot as plt
+
+sns.barplot(x='gender', y='math score', data=data, errorbar=None)
+plt.title('Average Math Score by Gender')
+plt.show()
+
+
+Concepts learned:
+
+sns.barplot() automatically groups data and calculates averages.
+
+x and y parameters define axes.
+
+data=data connects to my DataFrame.
+
+errorbar=None hides confidence intervals.
+
+plt.show() displays the chart.
+
+🧩 5. Key Takeaways
+
+✅ Learned basic Pandas functions for EDA (Exploratory Data Analysis).
+✅ Understood how to visualize patterns between variables.
+✅ Started thinking like a data analyst, interpreting results instead of just coding.
+✅ Built a clean GitHub-ready structure for the project.
