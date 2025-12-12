@@ -193,18 +193,6 @@ This turns the app into a **full analytics tool**, not just a predictor.
 
 ---
 
-# 🔥 **Phase 10: LinkedIn Portfolio Post (Coming Soon)**
-
-Will include:
-- Summary of problem  
-- Model performance  
-- App screenshots  
-- Key learnings  
-- GitHub link  
-- Streamlit app link (if deployed online)  
-
----
-
 # 📦 Requirements
 
 ```
